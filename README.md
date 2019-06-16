@@ -1,7 +1,7 @@
 # Mysql-note
 Record notes
 
-##case用法1
+##case聚合用法
 ```mysql
 SELECT std_id,
 CASE WHEN COUNT(*) = 1 -- 只加入了一个社团的学生
